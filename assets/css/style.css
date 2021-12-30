@@ -1,9 +1,4 @@
-/**
-* Template Name: Personal - v4.7.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -45,6 +40,51 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
+
+/*--------------------------------------------------------------
+#fOOTER
+--------------------------------------------------------------*/
+
+.footer-16371 {
+  padding: 7rem 0;
+  font-family: "Poppins", sans-serif; }
+  .footer-16371 .footer-site-logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900; }
+    .footer-16371 .footer-site-logo a {
+      color: #18d26e; }
+  .footer-16371 .nav-links {
+    padding: 0;
+    margin: 0; }
+    .footer-16371 .nav-links li {
+      display: inline-block; }
+      .footer-16371 .nav-links li a {
+        padding: 10px;
+        color: rgb(255, 255, 255); }
+        .footer-16371 .nav-links li a:hover {
+          color: #18d26e; }
+  .footer-16371 .social h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(255, 255, 255); }
+  .footer-16371 .social ul li {
+    display: inline-block; }
+    .footer-16371 .social ul li a {
+      display: inline-block;
+      padding: 10px; }
+    .footer-16371 .social ul li.in a {
+      color: #df588a; }
+    .footer-16371 .social ul li.tw a {
+      color: #15b8ff; }
+    .footer-16371 .social ul li.fb a {
+      color: #3742d0; }
+    .footer-16371 .social ul li.dr a {
+      color: #fa38c1; }
+    .footer-16371 .social ul li.pin a {
+      color: #dd4d5a; }
+  .footer-16371 .copyright {
+    color: #999999; }
 
 /*--------------------------------------------------------------
 # Header
