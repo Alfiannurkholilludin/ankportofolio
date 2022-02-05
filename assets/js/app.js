@@ -37,3 +37,13 @@ hamburger.addEventListener('click', function() {
     
 
 })
+
+// Animation GSAP loading
+const tl1 = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+tl1.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
+tl1.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
+tl1.to(".intro", { y: "-100%", duration: 1 }, "-=1");
+tl1.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
+tl1.fromTo(".landing", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl1.fromTo("product", { opacity: 0 }, { opacity: 1, duration: 1 });

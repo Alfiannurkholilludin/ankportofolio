@@ -281,6 +281,11 @@ nav ul.dropdown-list {
       text-align: justify;
   }
 
+  .product .wrapper-product .product-item .product-text2 {
+    margin-right: 100px;
+    text-align: justify;
+}
+
   .product .wrapper-product .product-item .product-text h1 {
       font-size: 48px;
       font-weight: bold;
@@ -390,6 +395,43 @@ nav ul.dropdown-list {
     font-size: 36px;
 }
 
+.intro {
+    background: var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider {
+    background: rgb(236, 140, 30);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+  }
+  
+  .intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+  }
+  
+  .hide {
+    background: var(--primary);
+    overflow: hidden;
+  }
+  
+  .hide span {
+    transform: translateY(100%);
+    display: inline-block;
+  }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px){
     /* landing */
@@ -452,6 +494,11 @@ nav ul.dropdown-list {
 
     .product .wrapper-product .product-item .product-text {
         margin-left: 50px;
+        text-align: justify;
+    }
+
+    .product .wrapper-product .product-item .product-text2 {
+        margin-right: 50px;
         text-align: justify;
     }
 
@@ -559,6 +606,11 @@ nav ul.dropdown-list {
 
     .product .wrapper-product .product-item .product-text {
         margin-left: 50px;
+        text-align: justify;
+    }
+
+    .product .wrapper-product .product-item .product-text2 {
+        margin-right: 50px;
         text-align: justify;
     }
 
@@ -736,6 +788,11 @@ nav ul.dropdown-list {
       margin-left: 100px;
       text-align: justify;
   }
+
+  .product .wrapper-product .product-item .product-text2 {
+    margin-right: 100px;
+    text-align: justify;
+}
 
   .product .wrapper-product .product-item .product-text h1 {
       font-size: 48px;
